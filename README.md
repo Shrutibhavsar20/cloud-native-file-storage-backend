@@ -78,14 +78,14 @@ Generates a secure pre-signed URL for file download.
 
 ---
 
-**To allow users to download files securely from Amazon Web Services S3, we use S3 Presigned URLs.**
+### To allow users to download files securely from Amazon Web Services S3, we use S3 Presigned URLs.
 
 Presigned URLs are generated using the AWS SDK / AWS CLI
 They provide temporary, secure access to a specific S3 object
 Users do not need AWS credentials to download the file
 The URL expires automatically after a defined time
 
-**Libraries / tools involved:**
+### Libraries / tools involved:
 
 AWS SDK (e.g., boto3, aws-sdk, or aws-cli)
 IAM policies to control access

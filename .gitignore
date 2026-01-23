@@ -1,3 +1,14 @@
 venv/
 .env
 __pycache__/
+
+# Terraform
+.terraform/
+terraform.tfstate
+terraform.tfstate.backup
+.terraform.lock.hcl
+terraform-provider-*
+terraform.tfvars
+
+# Secrets
+*.pem
